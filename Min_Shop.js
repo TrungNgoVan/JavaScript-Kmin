@@ -6,11 +6,11 @@ function Book(name, code, price) {
     return { nameBook, codeBook, priceBook };
 }
 let listBooks = [
-    Book('CleanCode', 'AA2', 140000),
-    Book('TheCleanCoder', 'AB1', 180000),
-    Book('CodeComplete', 'AC4', 130000),
-    Book('TheMythicalMan-month', 'AA1', 270000),
-    Book('ThePragmaticProgrammer', 'AD3', 90000)
+    Book('Clean Code', 'AA2', 140000),
+    Book('The Clean Coder', 'AB1', 180000),
+    Book('Code Complete', 'AC4', 130000),
+    Book('The Mythical Man-month', 'AA1', 270000),
+    Book('The Pragmatic Programmer', 'AD3', 90000)
 ];
 // idea a
 function checkPrice(a, b) {
@@ -118,3 +118,4 @@ function totalRevenue() {
 }
 console.log('Check total revenue');
 console.log(totalRevenue())
+// End Min Shop version 2
