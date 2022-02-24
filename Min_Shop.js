@@ -74,8 +74,7 @@ function Order(code, name, address, listBook) {
     return { codeOrder, nameClient, addressClient, Books }
 }
 let listOrder = [
-    Order('123', 'Trung Ngo', Address('Eatoh', 'Krong Nang', 'Dak Lak')
-        , [listBooks[0], listBooks[1]]),
+    Order('123', 'Trung Ngo', Address('Eatoh', 'Krong Nang', 'Dak Lak'), [listBooks[0], listBooks[1]]),
     Order('124', 'Le Dat', Address('Eatan', 'Krong Nang', 'Dak Lak'), [listBooks[2]]),
     Order('125', 'Minh Vu', Address('Tan Phuon', 'Quan 5', 'ho Chi Minh'), [listBooks[1], listBooks[2], listBooks[3]])
 ]
