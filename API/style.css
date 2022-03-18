@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: Poppins;
+    color: #283747 !important;
+    font-family: "Roboto Slab";
+}
+.catCast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    min-height: 100vh;
+    font-size: 1.65rem;
+    /* text-align: center; */
+}
+:root {
+    --font-family-heading: "Poppins",serif;
+    --font-family-body: "Cardo",sans-serif;
+    --font-family-body: "Poppins",sans-serif;
+    --color-primary: #3b2f63;
+    --color-primary: #002f6c;
+    --color-primary-lighter: #794aa2;
+    --color-primary-lighter: #002f6c;
+    --color-text: #525c65;
+    --background-body: #f9fbfe;
+    --font-size-regular-text: 18px;
+    --font-size-heading: 26px;
+}
+#root {
+    letter-spacing: 1.25px;
+}
