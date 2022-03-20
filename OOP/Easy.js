@@ -135,7 +135,7 @@ class Square{
     }
 }
 
-// Test code
+// TEST CODE
 
 let A = new Point(1,3);
 let B = new Point(4,7);
